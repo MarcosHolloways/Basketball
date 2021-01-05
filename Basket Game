@@ -9,7 +9,7 @@ def run_game():
     pygame.init()
     confg = Configuration()
     tela = pygame.display.set_mode((confg.tela_largura, confg.tela_altura))
-    pygame.display.set_caption("Exercicio 13.5")
+    pygame.display.set_caption("Basket Game")
 
 
     ball = Ball(tela, confg)
